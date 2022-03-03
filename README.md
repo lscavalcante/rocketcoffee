@@ -28,3 +28,15 @@ OR
 
 - run command **yarn install && yarn dev**
 
+## Screens of project
+------------------
+#### **Web**
+![](https://raw.githubusercontent.com/lscavalcante/rocketcoffee/main/public/images/web.png)
+
+#### **Mobile**
+![](https://raw.githubusercontent.com/lscavalcante/rocketcoffee/main/public/images/mobile.png)
+![](https://raw.githubusercontent.com/lscavalcante/rocketcoffee/main/public/images/header.png)
+
+
+
+
