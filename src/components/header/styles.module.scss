@@ -1,0 +1,93 @@
+.container_web {
+    color: red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 2rem;
+
+    nav {
+        margin-left: 5rem;
+
+        a {
+            position: relative;
+            display: inline-block; // deixar na mesma linha e consegue definir altura e largura
+            padding: 0 0.5rem;
+            height: 6rem;
+            line-height: 6rem;
+            color: white;
+            transition: opacity 0.2s;
+            font-size: 0.8rem;
+
+            // todos dão left menos o primeiro
+            & + a {
+                margin-left: 2rem;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &.active {
+                color: red;
+                font-weight: bold;
+            }
+        }
+    }
+
+    button {
+        margin-left: auto;
+        color: white;
+        background: transparent;
+        border: 1px solid var(--button);
+        border-radius: 7px;
+        padding: 0.5rem 2rem;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background: var(--button);
+        }
+    }
+
+}
+
+.container_mobile {
+
+    nav {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuMobileContent {
+        background: var(--backgrond);
+        height: 100vh;
+        display: solid;
+        width: 100%;
+        color: white;
+
+        z-index: 999;
+        
+        ul {
+            padding: 2rem 2rem;
+            list-style: none;
+            color: var(--text-color-menu-mobile);
+
+            li {
+                font-size: 1rem;
+                padding: 1rem 0;
+                
+                // border-top: 1px solid var(--border-menu-mobile);
+                border-bottom: 1px solid var(--border-menu-mobile);
+            }
+            
+        }
+
+
+        li:hover {
+            // border-top: 1px solid var(--button);
+            border-bottom: 1px solid var(--button);
+            cursor: pointer;
+            color: var(--button);
+        }
+    }
+}
