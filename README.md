@@ -1,6 +1,6 @@
 # RocketCoffee
 ------------------
-<a href="https://rocketcoffee.vercel.app/">Website</a>
+<a href="https://rocketcoffee.vercel.app/" target="_blank">Website</a>
 
 It's a static site created for practices my skill with react and scss only,
 
