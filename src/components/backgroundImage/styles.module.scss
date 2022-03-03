@@ -1,12 +1,11 @@
 .container  {
     width: 100%;
     min-height: 100vh;
-    background-image: url('assets/blur-1.png'), url('assets/blur-2.png');
+    background-image: url('/assets/blur-1.png'), url('/assets/blur-2.png');
 
     background-size: 100% 100%;
 
-
     @media(max-width: 1000px) {
-        background-image: url('assets/blur-mobile.png'),
+        background-image: url('/assets/blur-mobile.png'),
     }
 }
