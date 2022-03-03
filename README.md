@@ -15,8 +15,8 @@ Its was mobile firts
 ------------------
 - [x] Screen Home
 - [x] Component Header
-    [X] Mobile
-    [X] Web
+    - [X] Mobile
+    - [X] Web
 - [x] Responsive
 
 ## Run Project for [DEBUG]
